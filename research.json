@@ -1,0 +1,772 @@
+{
+  "schema_version": "1.0",
+  "title": "Olive Young 韩国购物指南产品研究",
+  "researched_date": "2026-11-17",
+  "timezone": "Asia/Seoul",
+  "product_count": 12,
+  "scope": "12款韩国品牌商品；6款自用、6款送礼。仅研究与素材，不含建站或发布。",
+  "display_rules": [
+    "优先展示budget_krw，必须保留“计划预算，非实时价”。price_reference为独立的查询日价格证据。",
+    "多选项页面的起价不是所选款式确定售价；不据此计算确定折扣、实时总价或门店库存。",
+    "套装图片中的其他颜色为可选款，不表示全部包含；阅读每条image_note。单件补充净图必须标注其仅展示套装一件。",
+    "Mediheal和Abib仅有父任务提供的品牌／品类笔记线索；其他产品没有小红书证据，不写全榜获小红书推荐。",
+    "韩国品牌不等于所有单品均为韩国制造；没有逐项核实原产国，不作全品韩国制造声明。"
+  ],
+  "products": [
+    {
+      "id": "roundlab-birch",
+      "brand": "ROUND LAB",
+      "name_zh": "白桦树保湿防晒霜企划套装",
+      "name_ko": "라운드랩 자작나무 수분 선크림 50ml 기획(+크림 20ml)",
+      "category": "防晒",
+      "size": "防晒霜50ml＋保湿面霜20ml",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000149135",
+      "olive_young_goods_no": "A000000149135",
+      "image_path": "dist/assets/roundlab-birch-sunscreen-clean.png",
+      "image_web_path": "/assets/roundlab-birch-sunscreen-clean.png",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0014/A00000014913564ko.png?l=ko",
+      "image_note": "图片展示50ml防晒与20ml面霜，匹配所列套装。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 25000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 16900,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000149135",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "希望日常防晒兼顾保湿的人；偏干、中性肤质可优先试用。",
+      "caution": "面霜赠品不是防晒霜；足量使用防晒并按包装说明补涂，敏感肤质先局部试用。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "torriden-dive-in",
+      "brand": "Torriden",
+      "name_zh": "DIVE-IN低分子玻尿酸精华",
+      "name_ko": "토리든 다이브인 저분자 히알루론산 세럼 50ml",
+      "category": "精华",
+      "size": "50ml／1瓶",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258298",
+      "olive_young_goods_no": "A000000258298",
+      "image_path": "dist/assets/torriden-dive-in-serum.jpg",
+      "image_web_path": "/assets/torriden-dive-in-serum.jpg",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025829806ko.jpg?l=ko",
+      "image_note": "图片为当前页面所列50ml新版精华。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 22000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 22000,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258298",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "希望补充保湿步骤、喜欢精华剂型的人。",
+      "caution": "保湿精华不能代替防晒；偏干肤质可再叠加面霜，出现刺激时停用。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "aestura-atobarrier365",
+      "brand": "AESTURA",
+      "name_zh": "ATOBARRIER365保湿面霜",
+      "name_ko": "에스트라 아토베리어365 크림 80ml",
+      "category": "面霜",
+      "size": "80ml／1支",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000198320",
+      "olive_young_goods_no": "A000000198320",
+      "image_path": "dist/assets/aestura-atobarrier365.jpg",
+      "image_web_path": "/assets/aestura-atobarrier365.jpg",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0019/A00000019832009ko.jpg?l=ko",
+      "image_note": "图片标注80ml，匹配单支规格。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 33000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 29700,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000198320",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "干燥、偏敏感肤质，或秋冬想增加保湿的人；包装标示适合干燥敏感肌。",
+      "caution": "偏油肤质先少量试用；敏感肌适用定位不等于保证不过敏。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "mediheal-madecassoside",
+      "brand": "MEDIHEAL",
+      "name_zh": "积雪草苷棉片100＋100片企划套装",
+      "name_ko": "메디힐 마데카소사이드 흔적 패드 100+100매 기획",
+      "category": "棉片",
+      "size": "100片＋100片，共200片；品牌单罐规格为100片／170ml",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267747",
+      "olive_young_goods_no": "A000000267747",
+      "image_path": "dist/assets/mediheal-madecassoside-pads.png",
+      "image_web_path": "/assets/mediheal-madecassoside-pads.png",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0026/A000000267747247ko.png?l=ko",
+      "image_note": "官方图片标注200片企划，包含多个可选款；请选择青绿色Madecassoside，图片中的其他颜色不代表全部包含。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 40000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_starting_price",
+        "amount": 28900,
+        "currency": "KRW",
+        "is_starting_price": true,
+        "selected_option_price_verified": false,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267747",
+        "accessed_date": "2026-11-17",
+        "note": "核到多选项页面起价；未确认本条所选款式的最终价格，不可直接作为该款实售价。"
+      },
+      "suitable": "喜欢棉片护理、希望简化局部湿敷步骤的人。",
+      "caution": "避开眼周与伤口，不重复使用；避免用力擦拭。品牌成分表含植物精油，对相关成分敏感者先核对。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": {
+        "level": "brand_or_category_only",
+        "source": "parent_provided_note_clue",
+        "note": "父任务提供的品牌／面膜棉片提及线索；未独立核读笔记，不证明此具体SKU获推荐、热销或有效。"
+      }
+    },
+    {
+      "id": "abib-heartleaf",
+      "brand": "Abib",
+      "name_zh": "鱼腥草贴合面膜5＋1片套装",
+      "name_ko": "아비브 껌딱지 시트 마스크 어성초 스티커 5매 (+1매 증정기획)",
+      "category": "片状面膜",
+      "size": "27ml／片，5＋1片，共6片",
+      "intent": "送礼",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000188270",
+      "olive_young_goods_no": "A000000188270",
+      "image_path": "dist/assets/abib-heartleaf-masks-clean.png",
+      "image_web_path": "/assets/abib-heartleaf-masks-clean.png",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018827020ko.png?l=ko",
+      "image_note": "图片展示5＋1套装的三个可选款；本条选前排绿色鱼腥草，不是三盒组合。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 20000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_starting_price",
+        "amount": 10000,
+        "currency": "KRW",
+        "is_starting_price": true,
+        "selected_option_price_verified": false,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000188270",
+        "accessed_date": "2026-11-17",
+        "note": "核到多选项页面起价；未确认本条所选款式的最终价格，不可直接作为该款实售价。"
+      },
+      "suitable": "喜欢独立包装面膜、希望选轻巧伴手礼的人。",
+      "caution": "按包装时间使用；开封即用，不留到次日。官方页显示11月19日起预售发货，门店库存需另查。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false,
+        "note": "页面显示11月19日起预约配送；旧单片商品A000000188019已显示找不到商品，未采用该链接。"
+      },
+      "xhs_note_clue": {
+        "level": "brand_or_category_only",
+        "source": "parent_provided_note_clue",
+        "note": "父任务提供的品牌／面膜棉片提及线索；未独立核读笔记，不证明此具体SKU获推荐、热销或有效。"
+      }
+    },
+    {
+      "id": "laneige-lip-duo",
+      "brand": "LANEIGE",
+      "name_zh": "莓果＋巧克力睡眠唇膜迷你套装",
+      "name_ko": "라네즈 립 슬리핑 마스크 베리초코 기획 8g+8g",
+      "category": "唇部护理",
+      "size": "莓果8g＋巧克力8g，共16g",
+      "intent": "送礼",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233147",
+      "olive_young_goods_no": "A000000233147",
+      "image_path": "dist/assets/laneige-lip-mask-duo.jpg",
+      "image_web_path": "/assets/laneige-lip-mask-duo.jpg",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023314702ko.jpg?l=ko",
+      "image_note": "图片展示莓果与巧克力各8g，非20g单罐。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 17600,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 14080,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233147",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "喜欢甜香型唇部护理、想尝试两种香味的人。",
+      "caution": "不是食品；不喜欢香味或容易唇部刺激者慎选，取用时保持手或工具清洁。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "unove-tender-bloom",
+      "brand": "UNOVE",
+      "name_zh": "深损修护发膜Tender Bloom套装",
+      "name_ko": "어노브 딥 데미지 리페어 헤어 마스크 텐더블룸 207ml+100ml",
+      "category": "护发",
+      "size": "207ml＋100ml，共307ml；Tender Bloom香型",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000154169",
+      "olive_young_goods_no": "A000000154169",
+      "image_path": "dist/assets/unove-tender-bloom-treatment.png",
+      "image_web_path": "/assets/unove-tender-bloom-treatment.png",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0015/A00000015416969ko.png?l=ko",
+      "image_note": "图片标注Tender Bloom 207ml与100ml，匹配套装。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 22000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 22000,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000154169",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "染烫后或发尾干燥、想增加柔顺感的人。",
+      "caution": "按包装说明冲洗；细软发先少量用于发中至发尾，送礼前确认对方是否接受香味。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "illiyoon-ceramide",
+      "brand": "ILLIYOON",
+      "name_zh": "神经酰胺ATO集中保湿霜",
+      "name_ko": "일리윤 세라마이드 아토 집중크림 150ML",
+      "category": "保湿霜",
+      "size": "150ml／1支",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000217766",
+      "olive_young_goods_no": "A000000217766",
+      "image_path": "dist/assets/illiyoon-ceramide-cream.png",
+      "image_web_path": "/assets/illiyoon-ceramide-cream.png",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0021/A00000021776606ko.png?l=ko",
+      "image_note": "采用所链接150ml单支页面的主图，不是旧200ml或500ml罐装。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 13500,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 9900,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000217766",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "偏干肤质、希望购买日常保湿大支装的人；包装标示干燥敏感肌定位。",
+      "caution": "质地偏保湿，油性或易闷肤质先少量试用；不能代替皮肤病治疗。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "bringgreen-lip-stick",
+      "brand": "BRING GREEN",
+      "name_zh": "竹萃玻尿酸保湿润唇棒",
+      "name_ko": "브링그린 대나무 히알루 립 에센스 스틱 보습",
+      "category": "唇部护理",
+      "size": "保湿无色款3.5g／1支",
+      "intent": "送礼",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251916",
+      "olive_young_goods_no": "A000000251916",
+      "image_path": "dist/assets/bringgreen-lip-essence-stick-clean.png",
+      "image_web_path": "/assets/bringgreen-lip-essence-stick-clean.png",
+      "image_url": "https://www.bringgreen.hk/cdn/shop/files/3_27.png?v=1792739320&width=1946",
+      "image_note": "图片包装可读3.5g，展示保湿款一支；尺寸由品牌香港页面及包装交叉核对。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 7800,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_starting_price",
+        "amount": 5800,
+        "currency": "KRW",
+        "is_starting_price": true,
+        "selected_option_price_verified": false,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251916",
+        "accessed_date": "2026-11-17",
+        "note": "核到多选项页面起价；未确认本条所选款式的最终价格，不可直接作为该款实售价。"
+      },
+      "suitable": "偏爱无色润唇产品、需要小预算实用伴手礼的人。",
+      "caution": "选择보습保湿款；생기是另一款。未核到防晒指数，不能当作防晒润唇膏。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "fillimilli-536",
+      "brand": "fillimilli",
+      "name_zh": "536眼部晕染刷",
+      "name_ko": "필리밀리 아이 스머지브러시 536",
+      "category": "化妆工具",
+      "size": "536型号／1支",
+      "intent": "送礼",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229650",
+      "olive_young_goods_no": "A000000229650",
+      "image_path": "dist/assets/fillimilli-eye-smudge-536.jpg",
+      "image_web_path": "/assets/fillimilli-eye-smudge-536.jpg",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0022/A00000022965002ko.jpg?l=ko",
+      "image_note": "图片为536单支及外包装，不是811粉底刷。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 5000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 4600,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229650",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "会画眼影、需要小号局部晕染工具的人。",
+      "caution": "定期清洁并充分晾干，不共用眼部刷具；刷毛不要接触眼球。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "dalba-peptide-duo",
+      "brand": "d'Alba",
+      "name_zh": "白松露肽精华喷雾双支套装",
+      "name_ko": "달바 퍼스트 스프레이 세럼 펩타이드 100ml 더블기획",
+      "category": "喷雾精华",
+      "size": "100ml×2瓶，共200ml；2026肽升级版",
+      "intent": "送礼",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000259555",
+      "olive_young_goods_no": "A000000259555",
+      "image_path": "dist/assets/dalba-peptide-spray-clean.png",
+      "image_web_path": "/assets/dalba-peptide-spray-clean.png",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025955510ko.png?l=ko",
+      "image_note": "图片展示肽升级版100ml双瓶，不是旧款100ml单瓶或120ml Pro。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 60000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_price",
+        "amount": 33500,
+        "currency": "KRW",
+        "is_starting_price": false,
+        "selected_option_price_verified": true,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000259555",
+        "accessed_date": "2026-11-17",
+        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+      },
+      "suitable": "喜欢喷雾剂型、偏滋润肤感的人；适合知道对方护肤偏好时送礼。",
+      "caution": "按包装说明使用并避开眼睛；对香味敏感者先核对实物成分，不能替代防晒。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    },
+    {
+      "id": "biodance-collagen",
+      "brand": "Biodance",
+      "name_zh": "胶原蛋白凝胶面膜4片装",
+      "name_ko": "바이오던스 바이오 콜라겐 리얼 딥 마스크 4매",
+      "category": "凝胶面膜",
+      "size": "34g×4片，共136g；Bio Collagen款",
+      "intent": "送礼",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181343",
+      "olive_young_goods_no": "A000000181343",
+      "image_path": "dist/assets/biodance-collagen-masks.png",
+      "image_web_path": "/assets/biodance-collagen-masks.png",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018134354ko.png?l=ko",
+      "image_note": "官方主图标注4片、包含多个可选款；本条选择前排粉色Bio Collagen盒，不是所有颜色的组合。",
+      "budget_krw": {
+        "type": "estimate",
+        "amount": 20000,
+        "currency": "KRW",
+        "label": "计划预算，非实时价"
+      },
+      "price_reference": {
+        "type": "verified_listing_starting_price",
+        "amount": 18900,
+        "currency": "KRW",
+        "is_starting_price": true,
+        "selected_option_price_verified": false,
+        "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181343",
+        "accessed_date": "2026-11-17",
+        "note": "核到多选项页面起价；未确认本条所选款式的最终价格，不可直接作为该款实售价。"
+      },
+      "suitable": "喜欢凝胶面膜、愿意花时间护理的人。",
+      "caution": "按实物包装时长使用，有不适立即取下；不将胶原面膜描述为替代医美或保证抗老。",
+      "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
+      "listing_status": {
+        "status": "official_product_page_observed",
+        "checked_date": "2026-11-17",
+        "option_level_stock_verified": false,
+        "store_inventory_verified": false
+      },
+      "xhs_note_clue": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "roundlab-birch-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000149135",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "torriden-dive-in-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258298",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "aestura-atobarrier365-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000198320",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "mediheal-madecassoside-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000267747",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "abib-heartleaf-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000188270",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "laneige-lip-duo-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233147",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "unove-tender-bloom-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000154169",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "illiyoon-ceramide-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000217766",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "bringgreen-lip-stick-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000251916",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": "韩国页面用于在售与起价；3.5g及主图来自补充香港品牌页。"
+    },
+    {
+      "id": "fillimilli-536-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000229650",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": "简短链接曾返回429，已通过搜索结果中的同goodsNo官方完整链接成功打开。"
+    },
+    {
+      "id": "dalba-peptide-duo-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000259555",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "biodance-collagen-oy",
+      "publisher": "Olive Young韩国官方商城",
+      "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181343",
+      "accessed_date": "2026-11-17",
+      "supports": [
+        "当前商品页面存在",
+        "名称及销售规格",
+        "网页展示韩元价格",
+        "商品图片（BRING GREEN主图除外）"
+      ],
+      "evidence_method": "web search followed by opening the official product page",
+      "note": null
+    },
+    {
+      "id": "mediheal-brand",
+      "url": "https://medihealshop.com/product/%EB%A7%88%EB%8D%B0%EC%B9%B4%EC%86%8C%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%9D%94%EC%A0%81-%ED%86%A0%EB%84%88%ED%8C%A8%EB%93%9C-100%EB%A7%A4/1710/",
+      "accessed_date": "2026-11-17",
+      "publisher": "MEDIHEAL品牌官方商城",
+      "supports": [
+        "单罐100片／170ml",
+        "成分及使用注意"
+      ],
+      "note": "品牌单罐售价不是Olive Young 200片套装价格。"
+    },
+    {
+      "id": "abib-brand",
+      "url": "https://abib.com/product/detail.html?product_no=323",
+      "accessed_date": "2026-11-17",
+      "publisher": "Abib品牌官网",
+      "supports": [
+        "每片27ml",
+        "开封即用",
+        "鱼腥草款产品识别"
+      ]
+    },
+    {
+      "id": "bringgreen-regional",
+      "url": "https://www.bringgreen.hk/products/bamboo-hyalu-lip-essence-stick-3-5g",
+      "accessed_date": "2026-11-17",
+      "publisher": "BRING GREEN香港品牌页面",
+      "supports": [
+        "保湿款3.5g",
+        "包装图片"
+      ],
+      "note": "仅用于规格与图片核对；香港价格未用作韩国售价。"
+    },
+    {
+      "id": "roundlab-brand",
+      "url": "https://roundlab.co.kr/article/press/8/3087/",
+      "accessed_date": "2026-11-17",
+      "publisher": "ROUND LAB品牌官网",
+      "supports": [
+        "白桦树防晒产品定位",
+        "SPF50+ PA++++"
+      ],
+      "note": "当前商品图亦可读SPF50+ PA++++。"
+    }
+  ],
+  "supplemental_images": [
+    {
+      "product_id": "mediheal-madecassoside",
+      "image_path": "dist/assets/mediheal-madecassoside-pads-clean.jpg",
+      "image_url": "https://medihealshop.com/web/product/big/202601/a44ead05f61955835efc0e9f49ad3d36.jpg",
+      "source_url": "https://medihealshop.com/product/%EB%A7%88%EB%8D%B0%EC%B9%B4%EC%86%8C%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%9D%94%EC%A0%81-%ED%86%A0%EB%84%88%ED%8C%A8%EB%93%9C-100%EB%A7%A4/1710/",
+      "accessed_date": "2026-11-17",
+      "pictured_size": "100片／170ml单罐",
+      "usage_note": "干净单罐图；不是200片套装全貌，若使用须标注套装中的单件。"
+    },
+    {
+      "product_id": "abib-heartleaf",
+      "image_path": "dist/assets/abib-heartleaf-mask-packshot.jpg",
+      "image_url": "https://cafe24.poxo.com/ec01/fourco/yjWjwWEJCqEVHIm8tGLL83wOsSxlKPxWhFcahTj6AppRDQQYXqbFNBSvOA6YuPMU5TEJNdIoObAnC4uvRNTvNQ==/_/web/product/big/202611/551b470337e4413562d43004f7e84331.jpg",
+      "source_url": "https://abib.com/product/detail.html?product_no=323",
+      "accessed_date": "2026-11-17",
+      "pictured_size": "27ml／1片",
+      "usage_note": "官方页面og:image；单片净图，不是5＋1盒装全貌。"
+    },
+    {
+      "product_id": "biodance-collagen",
+      "image_path": "dist/assets/biodance-collagen-option.jpg",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018134342ko.jpg?l=ko",
+      "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000181343",
+      "accessed_date": "2026-11-17",
+      "pictured_size": "34g／1片",
+      "usage_note": "胶原款单片净图，不是4片盒装全貌。"
+    }
+  ],
+  "verification": {
+    "official_listing_prices": 8,
+    "official_starting_prices": 4,
+    "website_budget_values": "All 12 budget values are editorial estimates, explicitly labeled; no claim of real-time prices.",
+    "images": "Downloaded with curl only from URLs exposed in official product pages, their image links, or an official page og:image. Primary images visually inspected.",
+    "limitations": [
+      "未进入购物车核对具体选项价格与实时库存。",
+      "部分官方主图为多款共同展示的企划海报，已在image_note注明。",
+      "适用人群与部分注意事项为保守编辑建议，非逐条临床验证。"
+    ]
+  }
+}
