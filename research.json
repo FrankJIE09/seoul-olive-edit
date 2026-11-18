@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "title": "Olive Young 韩国购物指南产品研究",
-  "researched_date": "2026-11-17",
+  "researched_date": "2026-11-18",
   "timezone": "Asia/Seoul",
   "product_count": 12,
   "scope": "12款韩国品牌商品；6款自用、6款送礼。仅研究与素材，不含建站或发布。",
@@ -29,7 +29,7 @@
       "image_note": "图片展示50ml防晒与20ml面霜，匹配所列套装。",
       "budget_krw": {
         "type": "estimate",
-        "amount": 25000,
+        "amount": 16900,
         "currency": "KRW",
         "label": "计划预算，非实时价"
       },
@@ -40,15 +40,15 @@
         "is_starting_price": false,
         "selected_option_price_verified": true,
         "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000149135",
-        "accessed_date": "2026-11-17",
-        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+        "accessed_date": "2026-11-18",
+        "note": "2026-11-18查询时官方网页显示₩16,900；门店活动与价格可能不同。"
       },
       "suitable": "希望日常防晒兼顾保湿的人；偏干、中性肤质可优先试用。",
       "caution": "面霜赠品不是防晒霜；足量使用防晒并按包装说明补涂，敏感肤质先局部试用。",
       "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
       "listing_status": {
         "status": "official_product_page_observed",
-        "checked_date": "2026-11-17",
+        "checked_date": "2026-11-18",
         "option_level_stock_verified": false,
         "store_inventory_verified": false
       },
@@ -81,7 +81,7 @@
         "is_starting_price": false,
         "selected_option_price_verified": true,
         "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258298",
-        "accessed_date": "2026-11-17",
+        "accessed_date": "2026-11-18",
         "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
       },
       "suitable": "希望补充保湿步骤、喜欢精华剂型的人。",
@@ -89,7 +89,7 @@
       "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
       "listing_status": {
         "status": "official_product_page_observed",
-        "checked_date": "2026-11-17",
+        "checked_date": "2026-11-18",
         "option_level_stock_verified": false,
         "store_inventory_verified": false
       },
@@ -111,7 +111,7 @@
       "image_note": "图片标注80ml，匹配单支规格。",
       "budget_krw": {
         "type": "estimate",
-        "amount": 33000,
+        "amount": 29700,
         "currency": "KRW",
         "label": "计划预算，非实时价"
       },
@@ -122,15 +122,15 @@
         "is_starting_price": false,
         "selected_option_price_verified": true,
         "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000198320",
-        "accessed_date": "2026-11-17",
-        "note": "核到官方网页展示价格；为查询时参考，不是实时门店报价。"
+        "accessed_date": "2026-11-18",
+        "note": "2026-11-18查询时官方网页显示₩29,700；门店活动与价格可能不同。"
       },
       "suitable": "干燥、偏敏感肤质，或秋冬想增加保湿的人；包装标示适合干燥敏感肌。",
       "caution": "偏油肤质先少量试用；敏感肌适用定位不等于保证不过敏。",
       "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
       "listing_status": {
         "status": "official_product_page_observed",
-        "checked_date": "2026-11-17",
+        "checked_date": "2026-11-18",
         "option_level_stock_verified": false,
         "store_inventory_verified": false
       },
@@ -203,23 +203,23 @@
       },
       "price_reference": {
         "type": "verified_listing_starting_price",
-        "amount": 10000,
+        "amount": 20000,
         "currency": "KRW",
         "is_starting_price": true,
         "selected_option_price_verified": false,
         "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000188270",
-        "accessed_date": "2026-11-17",
-        "note": "核到多选项页面起价；未确认本条所选款式的最终价格，不可直接作为该款实售价。"
+        "accessed_date": "2026-11-18",
+        "note": "官网页面显示多选项起价为₩20,000；本条为鱼腥草款，门店选项价与库存需现场确认。"
       },
       "suitable": "喜欢独立包装面膜、希望选轻巧伴手礼的人。",
-      "caution": "按包装时间使用；开封即用，不留到次日。官方页显示11月19日起预售发货，门店库存需另查。",
+      "caution": "按包装时间使用；开封即用，不留到次日。官方页显示11月21日起预约配送，门店库存需另查。",
       "suitability_basis": "编辑选购建议，依据产品类别、包装与官方定位；不构成效果保证。",
       "listing_status": {
         "status": "official_product_page_observed",
-        "checked_date": "2026-11-17",
+        "checked_date": "2026-11-18",
         "option_level_stock_verified": false,
         "store_inventory_verified": false,
-        "note": "页面显示11月19日起预约配送；旧单片商品A000000188019已显示找不到商品，未采用该链接。"
+        "note": "页面显示11月21日起预约配送；旧单片商品A000000188019已显示找不到商品，未采用该链接。"
       },
       "xhs_note_clue": {
         "level": "brand_or_category_only",
@@ -520,7 +520,7 @@
       "id": "roundlab-birch-oy",
       "publisher": "Olive Young韩国官方商城",
       "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000149135",
-      "accessed_date": "2026-11-17",
+      "accessed_date": "2026-11-18",
       "supports": [
         "当前商品页面存在",
         "名称及销售规格",
@@ -534,7 +534,7 @@
       "id": "torriden-dive-in-oy",
       "publisher": "Olive Young韩国官方商城",
       "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258298",
-      "accessed_date": "2026-11-17",
+      "accessed_date": "2026-11-18",
       "supports": [
         "当前商品页面存在",
         "名称及销售规格",
@@ -548,7 +548,7 @@
       "id": "aestura-atobarrier365-oy",
       "publisher": "Olive Young韩国官方商城",
       "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000198320",
-      "accessed_date": "2026-11-17",
+      "accessed_date": "2026-11-18",
       "supports": [
         "当前商品页面存在",
         "名称及销售规格",
@@ -576,7 +576,7 @@
       "id": "abib-heartleaf-oy",
       "publisher": "Olive Young韩国官方商城",
       "url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000188270",
-      "accessed_date": "2026-11-17",
+      "accessed_date": "2026-11-18",
       "supports": [
         "当前商品页面存在",
         "名称及销售规格",

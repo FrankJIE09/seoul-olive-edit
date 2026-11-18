@@ -19,6 +19,7 @@
     <nav class="main-nav" aria-label="主导航">
       <a href="#products" data-view="products" class="active">选点好物</a>
       <a href="#gifts" data-view="gifts">送礼灵感</a>
+      <a href="#routine" data-view="routine">基础护理</a>
       <a href="#notes" data-view="notes">小红书笔记</a>
       <a href="#guide" data-view="guide">到店手册</a>
     </nav>
@@ -43,7 +44,7 @@
           <div class="filter-field"><label for="skin">肤质 / 使用需求</label><select id="skin"><option value="all">尚未确定</option><option value="dry">偏干，想要保湿</option><option value="oily">偏油，偏好清爽</option><option value="sensitive">敏感，谨慎尝试</option><option value="hair">染烫 / 干燥发质</option></select></div>
           <div class="filter-field"><label for="price-limit">每项参考预算</label><select id="price-limit"><option value="0">不限预算</option><option value="10000">₩10,000 以内</option><option value="20000">₩20,000 以内</option><option value="30000">₩30,000 以内</option></select></div>
           <div class="filter-tip"><i data-lucide="bookmark-check"></i><h3>第一次买，先少量。</h3><p>不知道肤质时，先看基础护理；送礼前确认香味和使用习惯。</p></div>
-          <p class="research-date">资料核对：2026.11.17<br>包装与门店套装可能不同</p>
+          <p class="research-date">精选护理复核：2026.11.18<br>其他商品日期见详情</p>
         </aside>
         <div class="catalog">
           <div class="catalog-heading"><p><strong id="result-count">0</strong> 件值得看看 <span id="filter-summary">从日常需要出发</span></p><label class="sort-label">排序 <select id="sort" aria-label="商品排序"><option value="recommended">编辑顺序</option><option value="low">预算从低到高</option><option value="high">预算从高到低</option></select></label></div>
@@ -60,11 +61,18 @@
       <div class="gift-rule"><i data-lucide="heart-handshake"></i><div><h3>不熟悉对方肤质，就少做一点假设。</h3><p>化妆工具适合平时化妆的人；唇膜需要确认香味偏好；面膜先选少量。粉底色号、强功效精华和大罐囤货，留给更了解的人。</p></div></div>
     </section>
 
+    <section id="routine-view" class="view" hidden>
+      <div class="section-heading"><div><span class="eyebrow">给自己的一套日常护理</span><h2>八类商品，按需要挑，不必一次买齐。</h2></div><p>以自用为主；面膜和护手霜可在确认习惯、香味后送人。<br>化妆水与精华作用有重合，选一种也可以。</p></div>
+      <div class="routine-summary"><div class="routine-total"><span>八件计划预算</span><strong id="routine-total">₩0</strong><small id="routine-count">0 件 · 参考价核对至 2026.11.18</small></div><p class="routine-note">价格取 Olive Young 韩国官网查询日页面作购物预算参考；促销、具体选项和实体店库存可能不同。到店先核对规格、香型与肤感。</p><button id="add-all-picks" class="primary-button"> <i data-lucide="list-plus"></i>把八件加入清单</button></div>
+      <div id="routine-grid" class="routine-grid"></div>
+      <div class="routine-footnote"><i data-lucide="circle-alert"></i><p>基础顺序可按“洁面 → 化妆水或精华 → 面霜 → 白天防晒”。素颜霜是妆感选择，不替代防晒。敏感或正在不适时，先少量试用；不需要的步骤可以跳过。</p></div>
+    </section>
+
     <section id="notes-view" class="view" hidden>
       <div class="section-heading"><div><span class="eyebrow">看过什么，为什么这样选</span><h2>小红书种草，留一份判断。</h2></div><p>3 篇公开正文 + 1 条检索摘要。<br>站内搜索需要登录，未做完整热门榜统计。</p></div>
       <div class="notes-intro"><span class="rednote-badge">小红书 / rednote</span><p>这些公开笔记用于发现产品线索，不是完整热度榜。作者体验和种草文案不等于功效验证；未能完整读取的内容会单独注明。</p></div>
       <div id="note-list" class="note-list"></div>
-      <div class="source-method"><h3>这份清单怎么来的</h3><p>小红书公开文字提供线索，Olive Young 韩国商品页核对商品条目、规格与包装。其余商品属于编辑补充，并没有声称全部得到小红书推荐。部分新增项另参考官方销售排行或企划标签，榜单和活动会变化，不等于功效证明或个人适用建议。</p><p>资料访问日期：2026 年 11 月 17 日。预算是计划金额；笔记中的旧价格和活动不用于本页计价。门店库存需现场确认。</p></div>
+      <div class="source-method"><h3>这份清单怎么来的</h3><p>小红书公开文字提供线索，Olive Young 韩国商品页核对商品条目、规格与包装。其余商品属于编辑补充，并没有声称全部得到小红书推荐。部分新增项另参考官方销售排行或企划标签，榜单和活动会变化，不等于功效证明或个人适用建议。</p><p>小红书资料访问日期：2026 年 11 月 17 日；精选商品页复核：2026 年 11 月 18 日。预算是计划金额；促销和门店库存以购买时为准。</p></div>
     </section>
 
     <section id="guide-view" class="view" hidden>
@@ -79,7 +87,7 @@
       <a class="external-link" href="https://www.oliveyoung.co.kr/" target="_blank" rel="noopener noreferrer">Olive Young 韩国官网 <i data-lucide="arrow-up-right"></i></a>
     </section>
   </main>
-  <footer><a class="footer-brand" href="#products">首尔选物 <em>Seoul edit</em></a><p>独立购物手册，非 Olive Young 官方网站。清单保存在当前浏览器。</p><span>整理于 2026.11.17</span></footer>
+  <footer><a class="footer-brand" href="#products">首尔选物 <em>Seoul edit</em></a><p>独立购物手册，非 Olive Young 官方网站。清单保存在当前浏览器。</p><span>整理于 2026.11.18</span></footer>
 
   <dialog id="product-dialog" class="product-dialog"><button class="dialog-close icon-button" aria-label="关闭商品详情" title="关闭"><i data-lucide="x"></i></button><div id="product-detail"></div></dialog>
   <dialog id="list-dialog" class="list-dialog"><div class="drawer-header"><div><span class="eyebrow">给这一趟留个底</span><h2>我的购物清单 <span id="drawer-count"></span></h2></div><button class="dialog-close icon-button" aria-label="关闭购物清单" title="关闭"><i data-lucide="x"></i></button></div><div id="list-items"></div><div id="list-summary"></div></dialog>

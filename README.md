@@ -9,12 +9,13 @@ Buildless Chinese-language guide to shopping at Olive Young in Korea. Open `dist
 - Product details, Korean name copying and official source links.
 - Gift combinations that calculate their budget from the same product data.
 - Browser-local shopping list with quantities, recipients, purchased state, text export and printing/PDF.
-- 49 curated items across skincare, cleansing, sun care, makeup, hair and body care, with shade, fragrance and usage caveats.
+- 50 curated items across skincare, cleansing, sun care, makeup, hair and body care, with shade, fragrance and usage caveats.
+- A dedicated eight-item daily-care shortlist with current plan-price references and bulk add to the shopping list.
 - Three directly accessed public Xiaohongshu/rednote text notes plus one searchable public excerpt, with verification limits shown. Two added items map to product lines named in those notes; the remaining additions are clearly marked as editorial or official-listing picks.
 
 ## Files
 
-- `dist/data.js`: generated product data and suggested gift bundles; regenerate with `node build-data.mjs` after updating the research or editorial metadata.
+- `dist/data.js`: generated product data, suggested gift bundles and the daily-care shortlist; regenerate with `node build-data.mjs` after updating the research or editorial metadata.
 - `dist/notes.js`: public note references and editorial interpretation.
 - `dist/app.js`: application state, filtering, dialogs and shopping list.
 - `dist/styles.css`: responsive desktop/mobile and print styles.

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "researched_date": "2026-11-17",
-  "product_count": 37,
-  "scope": "在原12款基础上补充37款，总计49款，覆盖彩妆、护肤、洁面卸妆、防晒、头皮洗护与伴手礼；逐项核对Olive Young韩国商品页，区分小红书线索、韩国销售榜、官方企划与编辑建议。",
+  "researched_date": "2026-11-18",
+  "product_count": 38,
+  "scope": "在原12款基础上补充38款，总计50款，覆盖彩妆、护肤、洁面卸妆、防晒、头皮洗护与伴手礼；逐项核对Olive Young韩国商品页，区分小红书线索、韩国销售榜、官方企划与编辑建议。",
   "products": [
     {
       "id": "torriden-dive-in-toner-kit",
@@ -18,11 +18,12 @@
       "image_web_path": "/assets/torriden-dive-in-toner.jpg",
       "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0025/A00000025829305ko.jpg?l=ko",
       "image_note": "图片对应300ml正装与100ml加赠装；活动和赠品以门店当前包装为准。",
-      "budget_krw": {"type": "estimate", "amount": 28000, "currency": "KRW", "label": "计划预算，非实时价"},
+      "budget_krw": {"type": "estimate", "amount": 15700, "currency": "KRW", "label": "计划预算，非实时价"},
+      "price_reference": {"type": "verified_listing_price", "amount": 15700, "currency": "KRW", "is_starting_price": false, "selected_option_price_verified": true, "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258293", "accessed_date": "2026-11-18", "note": "Olive Young韩国商品页查询时显示₩15,700；线上活动及门店价格会变化。"},
       "suitable": "本来就会用化妆水、想补充一款日常保湿步骤的人；可与已有精华比较后再决定，不必叠加重复步骤。",
       "caution": "加赠装和价格会随活动变化；首次使用先少量试，敏感或不适时停用。",
       "suitability_basis": "Olive Young韩国商品页核对商品、规格与企划；编辑按日常护理习惯建议。",
-      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-17", "option_level_stock_verified": false, "store_inventory_verified": false},
+      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-18", "option_level_stock_verified": false, "store_inventory_verified": false},
       "xhs_note_clue": null
     },
     {
@@ -382,12 +383,12 @@
       "image_web_path": "/assets/roundlab-dokdo-cleanser.jpg",
       "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0015/A00000015118508ko.jpg?l=ko",
       "image_note": "官方主图对应150ml洁面单品；温和、低pH为商品页定位，不保证个体适用。",
-      "budget_krw": {"type": "estimate", "amount": 13000, "currency": "KRW", "label": "计划预算，非实时价"},
-      "price_reference": {"type": "verified_listing_price", "amount": 11700, "currency": "KRW", "is_starting_price": false, "selected_option_price_verified": true, "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000151185", "accessed_date": "2026-11-17", "note": "Olive Young页面查询参考价；活动和实体门店价格会变动。"},
+      "budget_krw": {"type": "estimate", "amount": 11700, "currency": "KRW", "label": "计划预算，非实时价"},
+      "price_reference": {"type": "verified_listing_price", "amount": 11700, "currency": "KRW", "is_starting_price": false, "selected_option_price_verified": true, "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000151185", "accessed_date": "2026-11-18", "note": "Olive Young韩国商品页查询时显示₩11,700；活动和实体门店价格会变动。"},
       "suitable": "想买一支日常洁面、愿意先确认洗后肤感的人；洁面步骤简单，适合自己按需比较。",
       "caution": "页面标注低pH不等于一定适合敏感肌；不要因包装或名称中的독도推断原产地。出现紧绷或刺激就停用。",
       "suitability_basis": "商品规格及官方定位来自Olive Young商品页；适用建议按日常洁面用途判断。",
-      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-17", "option_level_stock_verified": false, "store_inventory_verified": false},
+      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-18", "option_level_stock_verified": false, "store_inventory_verified": false},
       "xhs_note_clue": null
     },
     {
@@ -742,12 +743,12 @@
       "image_web_path": "/assets/hetras-mango-hand-cream.jpg",
       "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020053712ko.jpg?l=ko",
       "image_note": "图示为Hotel Wood香型单支；商品页有8款香型可选，图片不代表整组包含。",
-      "budget_krw": {"type": "estimate", "amount": 12000, "currency": "KRW", "label": "计划预算，非实时价"},
-      "price_reference": {"type": "verified_listing_starting_price", "amount": 8900, "currency": "KRW", "is_starting_price": true, "selected_option_price_verified": false, "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000200537", "accessed_date": "2026-11-17", "note": "官方多选项页查询日起价；具体香型、活动价与门店价格可能不同。"},
+      "budget_krw": {"type": "estimate", "amount": 8900, "currency": "KRW", "label": "计划预算，非实时价"},
+      "price_reference": {"type": "verified_listing_starting_price", "amount": 8900, "currency": "KRW", "is_starting_price": true, "selected_option_price_verified": false, "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000200537", "accessed_date": "2026-11-18", "note": "Olive Young韩国商品页查询时显示₩8,900起；具体香型和门店价格可能不同。"},
       "suitable": "适合想带一支实用小礼、并且能先闻香或知道对方偏好的情况；50ml便于随身携带。",
       "caution": "香味很个人，香味敏感者不适合盲送；8款任选1并非混合装。",
       "suitability_basis": "Olive Young韩国商品页核对50ml和8种香型；韩国销售榜资料于2026年11月16日将其列为当周新入榜品项。榜单不表示香味适合所有人。",
-      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-17", "option_level_stock_verified": false, "store_inventory_verified": false},
+      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-18", "option_level_stock_verified": false, "store_inventory_verified": false},
       "xhs_note_clue": null
     },
     {
@@ -769,6 +770,28 @@
       "caution": "不适合不了解对方护肤习惯时送礼。先读标签并谨慎少量试用；出现明显不适应停用，避免和自己不熟悉的活性产品一起叠加。",
       "suitability_basis": "Olive Young韩国商品页核对15ml及当期3ml×2企划；韩国销售榜资料于2026年11月16日列其总榜第5。排名不是功效证明或个人适用建议。",
       "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-17", "option_level_stock_verified": false, "store_inventory_verified": false},
+      "xhs_note_clue": null
+    },
+    {
+      "id": "kosnori-whitening-dress-tone-up",
+      "brand": "KOSNORI",
+      "name_zh": "Whitening Dress Tone-Up Cream 素颜霜",
+      "name_ko": "코스노리 화이트닝 드레스 톤업크림 50ml",
+      "category": "提亮妆前",
+      "size": "50ml／1支",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000017135",
+      "olive_young_goods_no": "A000000017135",
+      "image_path": "dist/assets/kosnori-whitening-dress-tone-up.jpg",
+      "image_web_path": "/assets/kosnori-whitening-dress-tone-up.jpg",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0001/A000000017135142ko.jpg?l=ko",
+      "image_note": "Olive Young官方商品图；图片不代表肤色适配效果，现场试用后选择。",
+      "budget_krw": {"type": "estimate", "amount": 16000, "currency": "KRW", "label": "计划预算，非实时价"},
+      "price_reference": {"type": "verified_listing_price", "amount": 16000, "currency": "KRW", "is_starting_price": false, "selected_option_price_verified": true, "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000017135", "accessed_date": "2026-11-18", "note": "Olive Young韩国商品页查询时显示₩16,000（页面列出20%折扣）；活动价会变化。"},
+      "suitable": "想要轻底妆提亮效果、并愿意到店试色观察是否自然的人。",
+      "caution": "颜色与肤感挑人，首次少量试用；素颜霜不替代单独防晒，购买时核对外盒说明。",
+      "suitability_basis": "Olive Young韩国商品页核对商品、50ml规格与查询日价格；编辑建议现场试色。",
+      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-18", "option_level_stock_verified": false, "store_inventory_verified": false},
       "xhs_note_clue": null
     },
     {
@@ -809,7 +832,7 @@
     {"id":"cosrx-pad-xhs","publisher":"小红书 / rednote公开笔记","url":"https://www.rednote.com/zh/discovery/item/69e9fb92000000001e00fd0c","accessed_date":"2026-11-17","supports":["作者提到COSRX水杨酸棉片与100片版本"],"note":"个人使用分享不代表普遍适用；不采信其功效结论或身体使用建议。"},
     {"id":"laneige-sleep-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000262516","accessed_date":"2026-11-17","supports":["70ml Water Sleeping Mask企划","迷你装组合","商品图"],"note":"企划赠品和价格以购买时页面为准。"},
     {"id":"unove-oil-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171422","accessed_date":"2026-11-17","supports":["70ml双支企划","商品图"],"note":"双支所含香型与活动包装需现场核对。"},
-    {"id":"roundlab-cleanser-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000151185","accessed_date":"2026-11-17","supports":["150ml规格","商品页低pH定位","查询日参考价格"],"note":"页面价不是实体门店保证价。"},
+    {"id":"roundlab-cleanser-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000151185","accessed_date":"2026-11-18","supports":["150ml规格","商品页低pH定位","查询日参考价格"],"note":"页面价不是实体门店保证价。"},
     {"id":"peripera-tint-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000244834","accessed_date":"2026-11-17","supports":["4g规格","多色可选","查询日参考起价与商品图"],"note":"色号和促销需在门店或结账页核实。"},
     {"id":"innisfree-powder-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000183260","accessed_date":"2026-11-17","supports":["5g规格","商品页用途与商品图"],"note":"与同品牌其他蜜粉产品区分。"},
     {"id":"huxley-hand-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000156811","accessed_date":"2026-11-17","supports":["11月Pick企划页","6款护手霜选项","Monchichi企划图"],"note":"活动限定包装与赠袋会变；香型先试闻。"},
@@ -819,7 +842,7 @@
     {"id":"jungsaemool-cushion-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000139063","accessed_date":"2026-11-17","supports":["多色可选","正装＋替换芯","官方页面当前气垫类目热销线索与商品图"],"note":"色号和当期企划需现场核对；产品排名不是个人效果保证。"},
     {"id":"mediheal-mask-image","publisher":"MEDIHEAL官方商城","url":"https://mediheal.com/products/madecassoside-essential-mask-blemish-repair-1","accessed_date":"2026-11-17","supports":["Madecassoside单片包装图"],"note":"该图仅示一个面膜选项；韩国Olive Young 10+1企划规格由另一条官方商品页核对。"},
     {"id":"unove-oil-image","publisher":"Olive Young US官方商城","url":"https://us.oliveyoung.com/products/UA58395654","accessed_date":"2026-11-17","supports":["UNOVE Tender Bloom 70ml单瓶包装图"],"note":"用于展示双瓶企划中的单支包装；韩国产品企划和价格仍以Olive Young韩国商品页为准。"},
-    {"id":"torriden-toner-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258293","accessed_date":"2026-11-17","supports":["300ml化妆水＋100ml加赠","近期首页推荐与品类排行收录","商品图"],"note":"页面活动与门店库存会变化；按已有护理习惯判断是否需要化妆水。"},
+    {"id":"torriden-toner-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000258293","accessed_date":"2026-11-18","supports":["300ml化妆水＋100ml加赠","查询日页面价格与商品图"],"note":"页面活动与门店库存会变化；按已有护理习惯判断是否需要化妆水。"},
     {"id":"unove-mask-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000171423","accessed_date":"2026-11-17","supports":["320ml双瓶企划","商品图","当前品类页面线索"],"note":"商品页面可能提示预约配送；双瓶库存及赠品需现场确认。"},
     {"id":"menokin-bubble-mask-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000234422","accessed_date":"2026-11-17","supports":["30秒泡泡面膜","6款多选项","部分企划含30ml赠品","商品图"],"note":"选择具体类型后核对配方、说明与赠品；不引用宣传功效。"},
     {"id":"menokin-mask-image","publisher":"MENOKIN官方商城","url":"https://menokin.co.kr/product/%EC%B6%9C%EC%8B%9C-%EB%A9%94%EB%85%B8%ED%82%A8-30%EC%B4%88-%ED%80%B5-%EB%B2%84%EB%B8%94-%EB%A7%88%EC%8A%A4%ED%81%AC-6%EC%A2%85-%EC%84%B8%ED%8A%B8/324/category/24/display/1/","accessed_date":"2026-11-17","supports":["六款瓶装系列展示图"],"note":"本地卡片图为瓶装展示图裁切，不含促销文案；不表示6款均在购买选项中包含。"},
@@ -836,12 +859,14 @@
     {"id":"torriden-lip-image","publisher":"Torriden Taiwan官方商城","url":"https://torriden.tw/en/products/torriden-solid-in-ceramide-lip-essence-8809784600152","accessed_date":"2026-11-17","supports":["11ml商品单支包装图"],"note":"仅用作单支产品包装图。"},
     {"id":"longtake-oil-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000210993","accessed_date":"2026-11-17","supports":["40ml+15ml企划","Sandalwood、Black Tea & Fig、Rose Remains三种香型"],"note":"企划赠品、可选香型与门店库存会变化。"},
     {"id":"longtake-oil-image","publisher":"Olive Young韩国官方商城商品图","url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0021/A00000021099338ko.png?l=ko","accessed_date":"2026-11-17","supports":["Rose Remains 40ml单瓶包装图"],"note":"图中不含15ml赠品瓶。"},
-    {"id":"hetras-hand-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000200537","accessed_date":"2026-11-17","supports":["50ml护手霜","8种香型可选","查询日起价与商品图"],"note":"香型很挑人；页面价格为多选项起价，门店库存需确认。"},
+    {"id":"hetras-hand-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000200537","accessed_date":"2026-11-18","supports":["50ml护手霜","8种香型可选","查询日起价与商品图"],"note":"香型很挑人；页面价格为多选项起价，门店库存需确认。"},
     {"id":"hetras-hand-image","publisher":"Olive Young韩国官方商城商品图","url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020053712ko.jpg?l=ko","accessed_date":"2026-11-17","supports":["Hotel Wood香型单支包装图"],"note":"图片只展示一个香型。"},
     {"id":"celimax-retinal-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000001002590","accessed_date":"2026-11-17","supports":["15ml Retinal Shot企划与3ml×2赠品线索","当期页面价格与商品图"],"note":"对成分敏感或初次接触此类产品者谨慎核对包装说明；活动价格会变。"},
     {"id":"celimax-retinal-image","publisher":"celimax官方商城","url":"https://www.celimax.co.kr/product/%EB%8D%94-%EB%B9%84%ED%83%80-a-%EB%A0%88%ED%8B%B0%EB%82%A0-%EC%83%B7-%ED%83%80%EC%9D%B4%ED%8A%B8%EB%8B%9D-%EB%B6%80%EC%8A%A4%ED%84%B0/70/","accessed_date":"2026-11-17","supports":["15ml主支产品图"],"note":"主图不含Olive Young企划小样。"},
     {"id":"bioheal-probioderm-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000199701","accessed_date":"2026-11-17","supports":["Probioderm 3D Lifting Cream 50ml单品与按摩板企划选项","查询日商品页价格与购买门店入口"],"note":"单品和按摩板企划价格不同；以实际选项为准。"},
     {"id":"bioheal-probioderm-image","publisher":"BIOHEAL BOH日本官方商城","url":"https://www.biohealboh.jp/assets/images/cream/product.png","accessed_date":"2026-11-17","supports":["50ml面霜单品包装图"],"note":"用于展示单品包装，不含Olive Young按摩板企划。"},
-    {"id":"korea-weekly-ranking-2026-11-16","publisher":"The Seoul Beauty Report（整理Olive Young韩国销售榜）","url":"https://theseoulbeautyreport.com/rankings/weekly-2026-11-16/","accessed_date":"2026-11-17","supports":["Longtake Hair Oil当周护发榜第5","celimax The Vita A Retinal Shot当周总榜第5","Torriden Solid In Lip Essence细分榜名次线索","hetras手霜当周新入榜第25","BIOHEAL BOH Probioderm 3D Lifting Cream列入总榜前十"],"note":"排名反映2026-11-16一周的韩国销售榜快照，不是官方商品评价、功效验证或个人适用建议。"}
+    {"id":"korea-weekly-ranking-2026-11-16","publisher":"The Seoul Beauty Report（整理Olive Young韩国销售榜）","url":"https://theseoulbeautyreport.com/rankings/weekly-2026-11-16/","accessed_date":"2026-11-17","supports":["Longtake Hair Oil当周护发榜第5","celimax The Vita A Retinal Shot当周总榜第5","Torriden Solid In Lip Essence细分榜名次线索","hetras手霜当周新入榜第25","BIOHEAL BOH Probioderm 3D Lifting Cream列入总榜前十"],"note":"排名反映2026-11-16一周的韩国销售榜快照，不是官方商品评价、功效验证或个人适用建议。"},
+    {"id":"kosnori-tone-up-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000017135","accessed_date":"2026-11-18","supports":["KOSNORI Whitening Dress Tone-Up Cream 50ml","查询日页面价格与官方商品图"],"note":"肤色妆感需到店试用；促销和门店库存会变化，不作为防晒产品推荐。"},
+    {"id":"kosnori-tone-up-image","publisher":"Olive Young韩国官方商城商品图","url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0001/A000000017135142ko.jpg?l=ko","accessed_date":"2026-11-18","supports":["KOSNORI Whitening Dress Tone-Up Cream包装图"],"note":"仅用于商品识别，不代表妆感或肤色适配。"}
   ]
 }

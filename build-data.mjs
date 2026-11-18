@@ -47,6 +47,7 @@ const edits = {
   'laneige-water-sleeping-mask-kit': { name:'Water Sleeping Mask 睡眠面膜企划', category:'skincare', skin:['dry'], purposes:['self','gift'], label:'夜间护理', tags:['70ml + 迷你装','企划款'], reason:'Olive Young 页面列有 70ml 正装与迷你装企划，适合本来就会用睡眠面膜的人。', giftAdvice:'先确认对方习惯用睡眠面膜、也不介意味道和肤感；这是编辑补充，不对应小红书笔记提到的其他兰芝款。' },
   'unove-silk-hair-oil-kit': { name:'丝柔护发精油双支企划', category:'hairbody', skin:['hair'], purposes:['self','gift'], label:'护发加一项', tags:['70ml 双支','先试香味'], reason:'补上免洗护发油选项；先试少量，确认香味与发尾质地。', giftAdvice:'适合明确有护发习惯的人；细软发和香味敏感者先试用再决定。' },
   'roundlab-dokdo-cleanser': { name:'1025 独岛低 pH 洁面', category:'cleansing', skin:['oily','sensitive'], purposes:['self'], label:'日常清洁', tags:['150ml','自己先试'], reason:'清单原先缺少洁面类别；这支方便现场核对规格、质地和洗后感受。', giftAdvice:'洁面也会因肤感和成分偏好不同，优先自己选，不建议盲送。' },
+  'kosnori-whitening-dress-tone-up': { name:'Whitening Dress Tone-Up Cream 素颜霜', category:'makeup', skin:[], purposes:['self'], label:'素颜妆感 · 先试色', tags:['50ml','不能替代防晒'], reason:'想要轻底妆提亮效果时可以试；先在店里观察是否与肤色自然融合。', giftAdvice:'肤色和使用习惯都很个人，建议自用先试，不适合作为盲送礼物。' },
   'peripera-mood-glowy-tint': { name:'Mood Glowy 水润唇釉', category:'makeup', skin:[], purposes:['self','gift'], label:'先试色再送', tags:['4g','多色可选'], reason:'想找预算友好的水润唇妆，可以在店里试色后再定。', giftAdvice:'色号很多，送礼前确认对方常用色系；最好让对方自己试选。' },
   'innisfree-nosebum-ac-powder': { name:'No-Sebum AC 控油蜜粉', category:'makeup', skin:['oily'], purposes:['self'], label:'随身补妆', tags:['5g','偏油肌参考'], reason:'小规格定妆粉可补充油光护理选择；先少量上脸看看是否显干。', giftAdvice:'妆感与肤质比较个人，更适合自用后决定是否回购。' },
   'huxley-perfume-handcream': { name:'香氛护手霜（6 款任选 1）', category:'hairbody', skin:[], purposes:['self','gift'], label:'11 月 Olive Young Pick', tags:['香氛小礼','先试闻'], reason:'Olive Young 11 月企划页列出 6 款；先试闻香型，再挑一支日常用或送给明确喜欢香氛的人。', giftAdvice:'香味很挑人；Monchichi 包装、赠袋和活动内容都按所选款及当前门店实物确认。', evidence:'选品线索：Olive Young 2026 年 11 月 Pick 企划；不是小红书作者实测。' },
@@ -59,16 +60,18 @@ const productMap = new Map(research.products.map(p=>[p.id,p]));
 const products = Object.entries(edits).map(([id, edit])=>{
   const p = productMap.get(id);
   const reference = p.price_reference;
+  const checkedDate = reference?.accessed_date || p.listing_status?.checked_date;
+  const dateLabel = checkedDate ? `${Number(checkedDate.slice(5,7))}月${Number(checkedDate.slice(8,10))}日` : '查询日';
   const referenceText = !reference
-    ? '官方商品页已核对；没有可靠记录所选规格的页面价格，以店内标签为准。'
+    ? `官方商品页已核对；没有可靠记录所选规格的页面价格，以店内标签为准（${dateLabel}）。`
     : reference.is_starting_price
-      ? `11月17日官方多选项页起价 ₩${reference.amount.toLocaleString('en-US')}，不等于本款最终价。`
-      : `11月17日官网页面参考价 ₩${reference.amount.toLocaleString('en-US')}；门店价格可能不同。`;
+      ? `${dateLabel}官方多选项页起价 ₩${reference.amount.toLocaleString('en-US')}，不等于本款最终价。`
+      : `${dateLabel}官网页面参考价 ₩${reference.amount.toLocaleString('en-US')}；门店价格可能不同。`;
   const originalImage = basename(p.image_path);
   const optimizedImage = originalImage.replace(/\.(png|jpg)$/i,'.webp');
   const image = existsSync(new URL(`./dist/assets/${optimizedImage}`,import.meta.url))
     ? `assets/${optimizedImage}` : `assets/${originalImage}`;
-  return {id,brand:p.brand,ko:p.name_ko,size:p.size,budget:p.budget_krw.amount,suitable:p.suitable,caution:p.caution,source:p.official_url,image,imageNote:p.image_note,priceNote:`${referenceText} 页面大字为预留购物预算。`,...edit};
+  return {id,brand:p.brand,ko:p.name_ko,size:p.size,budget:p.budget_krw.amount,suitable:p.suitable,caution:p.caution,source:p.official_url,image,imageNote:p.image_note,checkedDate,priceNote:`${referenceText} 页面金额仅作购物预算参考。`,...edit};
 });
 const bundles = [
   {id:'small',for:'给会化妆的朋友',title:'轻巧的小心意',description:'一支无色润唇棒，加一支眼部晕染刷。用途简单，也不需要猜色号。',ids:['bringgreen-lip-stick','fillimilli-536']},
@@ -78,5 +81,15 @@ const bundles = [
   {id:'night-care',for:'给常用面膜的人',title:'几天的夜间护理',description:'MEDIHEAL面膜与兰芝睡眠面膜搭配；只送给明确会用这类产品的人。不是官方礼盒，先核对具体款式和肤感。',ids:['mediheal-essential-mask-kit','laneige-water-sleeping-mask-kit']},
   {id:'small-care-gift',for:'给会用润唇膏的朋友',title:'手部与唇部小礼袋',description:'WHIPPED三款迷你护理霜加无色润唇棒；确认对方接受香味和身体护理品后再送。不是官方组合礼盒。',ids:['whipped-handbody-butter-bag','bringgreen-lip-stick']}
 ];
-writeFileSync(new URL('./dist/data.js',import.meta.url),`// Generated from research.json and build-data.mjs.\nwindow.PRODUCTS = ${JSON.stringify(products,null,2)};\nwindow.BUNDLES = ${JSON.stringify(bundles,null,2)};\n`);
+const picks = [
+  {id:'abib-heartleaf',category:'面膜',note:'5＋1片鱼腥草款，先试一片；只送给平时会敷面膜的人。'},
+  {id:'roundlab-birch',category:'防晒',note:'50ml防晒＋20ml面霜企划；先试肤感，面霜赠品不能替代防晒。'},
+  {id:'hetras-mango-hand-cream',category:'护手霜',note:'50ml、8种香型任选；试闻后再决定，香味敏感时不盲送。'},
+  {id:'aestura-atobarrier365',category:'面霜',note:'80ml保湿面霜；偏干可优先试，偏油肤质先看实际质地。'},
+  {id:'kosnori-whitening-dress-tone-up',category:'素颜霜',note:'50ml轻底妆提亮；现场试色，看是否自然贴合肤色，不替代防晒。'},
+  {id:'torriden-dive-in-toner-kit',category:'补水',note:'300ml＋100ml企划；已有保湿精华时按需取舍，不必两步都买。'},
+  {id:'roundlab-dokdo-cleanser',category:'洁面',note:'150ml日常洁面；先确认洗后肤感，低pH定位不保证人人适用。'},
+  {id:'torriden-dive-in',category:'精华',note:'50ml基础保湿精华；和化妆水用途有重合，按习惯选剂型即可。'}
+];
+writeFileSync(new URL('./dist/data.js',import.meta.url),`// Generated from research.json and build-data.mjs.\nwindow.PRODUCTS = ${JSON.stringify(products,null,2)};\nwindow.BUNDLES = ${JSON.stringify(bundles,null,2)};\nwindow.PICKS = ${JSON.stringify(picks,null,2)};\n`);
 console.log(`Generated ${products.length} products and ${bundles.length} gift bundles.`);

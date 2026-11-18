@@ -6,9 +6,9 @@ Palette: paper #fafbf8, white #ffffff, ink #20271e, leaf #356345, lime #d7ef88, 
 
 Type: system sans with PingFang SC and Apple SD Gothic Neo for Chinese/Korean; Georgia only for the short English wordmark. Fixed type scale 12, 14, 16, 20, 28, 40px. No negative tracking or viewport-scaled text.
 
-Layout: a compact retail notebook, left aligned. Desktop has a narrow filter rail and three product columns; mobile has horizontal categories and two columns. A side drawer holds the shopping list. Notes and store advice are separate tab views.
+Layout: a compact retail notebook, left aligned. Desktop has a narrow filter rail and three product columns; mobile has horizontal categories and two columns. A side drawer holds the shopping list. The care shortlist, social notes and store advice are peer navigation views.
 
-    wordmark | products / gifts / notes / visit | list
+    wordmark | products / gifts / care / notes / visit | list
     Olive Young shopping guide        research date
     purpose switch | search
     filters | product | product | product

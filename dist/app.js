@@ -99,7 +99,7 @@ function syncPurpose() {
 }
 function setView() {
   const requested = location.hash.slice(1);
-  const view = ['products','gifts','notes','guide'].includes(requested) ? requested : 'products';
+  const view = ['products','gifts','routine','notes','guide'].includes(requested) ? requested : 'products';
   $$('.view').forEach(section => section.hidden = section.id !== `${view}-view`);
   $$('.main-nav a').forEach(link => { const active = link.dataset.view === view; link.classList.toggle('active',active); if(active) link.setAttribute('aria-current','page'); else link.removeAttribute('aria-current'); });
 }
@@ -125,6 +125,7 @@ function showProduct(id) {
   const note = notes.find(n => n.id === p.noteId);
   $('#product-detail').innerHTML = `<div class="detail-top"><div class="detail-image"><img src="${escapeHTML(p.image)}" alt="${escapeHTML(p.brand+' '+p.name)}"></div><div class="detail-main"><p class="brand-name">${escapeHTML(p.brand)}</p><h2>${escapeHTML(p.name)}</h2><div class="korean-name"><span lang="ko">${escapeHTML(p.ko)}</span><button class="icon-button copy-phrase" data-text="${escapeHTML(p.ko)}" aria-label="复制商品韩文名" title="复制韩文名">${icon('copy')}</button></div><p>${escapeHTML(p.reason)}</p><p class="product-size">${escapeHTML(p.size)}</p><div class="product-price"><small>计划预算，非实时售价</small>${money(p.budget)}</div><button class="primary-button" data-detail-add="${p.id}">${icon(list.some(item => item.id === id) ? 'check' : 'plus')}${list.some(item => item.id === id) ? '已加入，查看清单' : '加入购物清单'}</button></div></div><div class="detail-facts"><div><h3>适合考虑</h3><p>${escapeHTML(p.suitable)}</p></div><div><h3>买前留意</h3><p>${escapeHTML(p.caution)}</p></div><div><h3>送礼判断</h3><p>${escapeHTML(p.giftAdvice)}</p></div><div><h3>预算与版本</h3><p>${escapeHTML(p.priceNote)}</p></div></div><div class="detail-sources"><a href="${escapeHTML(p.source)}" target="_blank" rel="noopener noreferrer">官方商品页 ${icon('arrow-up-right')}</a>${note ? `<a href="${escapeHTML(note.url)}" target="_blank" rel="noopener noreferrer">相关小红书笔记 ${icon('arrow-up-right')}</a>` : ''}${p.evidenceUrl ? `<a href="${escapeHTML(p.evidenceUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(p.evidenceLabel || '韩国销售榜资料')} ${icon('arrow-up-right')}</a>` : ''}<p>${note ? '笔记用于同品牌 / 系列发现；不代表作者测评了本页这一规格。' : '编辑补充选品：以官方商品页为产品来源。'}${p.evidence ? ` ${escapeHTML(p.evidence)}` : ''} 商品图来自官方页面。核对日期：2026.11.17。</p></div>`;
   $('.detail-sources').insertAdjacentHTML('afterbegin', `<p class="image-note">图片说明：${escapeHTML(p.imageNote)}</p>`);
+  $('.detail-sources').innerHTML = $('.detail-sources').innerHTML.replace('核对日期：2026.11.17。', `核对日期：${escapeHTML((p.checkedDate || '2026-11-17').replaceAll('-', '.'))}。`);
   paintIcons();
   showDialog($('#product-dialog'));
 }
@@ -150,8 +151,15 @@ function renderGifts() {
 function renderNotes() {
   $('#note-list').innerHTML = notes.map(note => `<article class="note-row"><div class="note-author">${escapeHTML(note.author)}<small>${escapeHTML(note.date)}</small></div><div class="note-body"><h3>${escapeHTML(note.title)}</h3><p>${escapeHTML(note.summary)}</p><p class="editor-note">选物判断：${escapeHTML(note.takeaway)}</p></div><a href="${escapeHTML(note.url)}" class="note-link" target="_blank" rel="noopener noreferrer">查看原笔记 ${icon('arrow-up-right')}</a></article>`).join('');
 }
+function renderRoutine() {
+  const picks = (window.PICKS || []).map(pick => ({pick, product:productById(pick.id)})).filter(item => item.product);
+  $('#routine-count').textContent = `${picks.length} 件 · 参考价核对至 2026.11.18`;
+  $('#routine-total').textContent = money(picks.reduce((sum,item) => sum + item.product.budget,0));
+  $('#routine-grid').innerHTML = picks.map(({pick,product}) => `<article class="routine-card"><button class="routine-visual" data-detail="${product.id}" aria-label="查看${escapeHTML(product.name)}详情"><img src="${escapeHTML(product.image)}" alt="${escapeHTML(product.brand+' '+product.name+' 商品包装')}" loading="lazy" width="320" height="320"><span>${escapeHTML(pick.category)}</span></button><div class="routine-body"><p class="brand-name">${escapeHTML(product.brand)}</p><button class="product-title" data-detail="${product.id}">${escapeHTML(product.name)}</button><p class="product-size">${escapeHTML(product.size)}</p><p class="routine-reason">${escapeHTML(pick.note)}</p><div class="routine-bottom"><div class="product-price"><small>计划预算</small>${money(product.budget)}</div><button class="add-button" data-add="${product.id}" title="加入购物清单" aria-label="加入清单：${escapeHTML(product.name)}">${icon('plus')}</button></div></div></article>`).join('');
+  updateListCount();
+}
 function exportList() {
-  const lines = ['首尔选物 | Olive Young 购物清单','资料核对：2026-11-17；以下为计划预算，不是实时门店价。',''];
+  const lines = ['首尔选物 | Olive Young 购物清单','各商品核对日期见商品详情；以下为计划预算，不是实时门店价。',''];
   list.forEach(item => { const p = productById(item.id); lines.push(`${item.purchased?'[已买]':'[待买]'} ${p.brand} ${p.name} × ${item.quantity}`,`韩文：${p.ko}`,`规格：${p.size}`,`用途：${item.recipient==='gift'?'送心意':'给自己'} | 计划预算：${money(p.budget*item.quantity)}`,`官方：${p.source}`,''); });
   lines.push(`合计计划预算：${money(list.reduce((sum,item)=>sum+productById(item.id).budget*item.quantity,0))}`);
   const url = URL.createObjectURL(new Blob(['\uFEFF'+lines.join('\n')],{type:'text/plain;charset=utf-8'}));
@@ -179,6 +187,13 @@ document.addEventListener('click', event => {
   }
   if (['reset-filters','empty-reset'].includes(button.id)) resetFilters();
   if (button.id==='open-list') openList();
+  if (button.id==='add-all-picks') {
+    const before = list.length;
+    (window.PICKS || []).forEach(pick => { if(productById(pick.id) && !list.some(item=>item.id===pick.id)) list.push({id:pick.id,quantity:1,purchased:false,recipient:'self'}); });
+    const added = list.length - before;
+    saveList();
+    toast(added ? `已加入 ${added} 件商品` : '这套推荐已在清单中');
+  }
   if (button.id==='back-to-products') {$('#list-dialog').close();location.hash='products';}
   if (button.id==='export-list') exportList();
   if (button.id==='print-list') window.print();
@@ -196,4 +211,4 @@ window.addEventListener('hashchange', setView);
 document.addEventListener('keydown',event=>{if(event.key==='/' && !event.ctrlKey && !event.metaKey && !['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName) && !$('dialog[open]')){event.preventDefault();location.hash='products';$('#search').focus();}});
 $$('dialog').forEach(dialog => dialog.addEventListener('click', event => { if(event.target===dialog) {const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();} }));
 document.addEventListener('error',event=>{if(event.target.tagName==='IMG'){const fallback=document.createElement('span');fallback.className='image-fallback';fallback.textContent='商品图片暂不可用';event.target.replaceWith(fallback);}},true);
-renderProducts(); renderGifts(); renderNotes(); setView(); paintIcons();
+renderProducts(); renderGifts(); renderNotes(); renderRoutine(); setView(); paintIcons();
