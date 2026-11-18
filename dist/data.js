@@ -1000,6 +1000,36 @@ window.PRODUCTS = [
     "giftAdvice": "洗发水和头皮感受因人而异，建议自用；不要把页面宣传理解为治疗保证。"
   },
   {
+    "id": "ryo-damage-care-conditioner",
+    "brand": "Ryo / 吕",
+    "ko": "려 흑윤생기 극손상&영양 컨디셔너 480ml",
+    "size": "480ml／冲洗型护发素",
+    "budget": 10000,
+    "suitable": "想补一支日常冲洗型护发素、发尾容易干燥或有染烫习惯的人；先少量试用并观察自己的发丝触感。",
+    "caution": "页面同时有洗发水和护发素等选项，结账前确认选择红瓶护发素；香味与滋润感因人而异，价格、促销和门店库存以现场为准。",
+    "source": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205015",
+    "image": "assets/ryo-damage-care-conditioner.jpg",
+    "imageNote": "官方图对应红瓶 Damage Care & Nourishing Conditioner；商品页另有洗发水/护发素等选项，图片只代表这款护发素。",
+    "checkedDate": "2026-11-18",
+    "priceNote": "11月18日官方多选项页起价 ₩8,900，不等于本款最终价。 页面金额仅作购物预算参考。",
+    "name": "黑润生气极损伤营养护发素",
+    "category": "hairbody",
+    "skin": [
+      "hair"
+    ],
+    "purposes": [
+      "self"
+    ],
+    "label": "冲洗型日常护发",
+    "tags": [
+      "480ml",
+      "先确认选项"
+    ],
+    "reason": "补上一支冲洗型护发素；结账前确认是红瓶护发素而非同页洗发水，先少量试用。",
+    "giftAdvice": "香味和滋润感比较个人，建议自用或先确认对方的护发习惯。",
+    "evidence": "Olive Young韩国官方多选项页面核对商品与480ml规格；页面起价不是所选护发素的确定售价。"
+  },
+  {
     "id": "drg-red-blemish-kit",
     "brand": "Dr.G",
     "ko": "닥터지 레드 블레미쉬 클리어 수딩 크림 EX 70ml 기획",
@@ -1567,5 +1597,10 @@ window.PICKS = [
     "id": "torriden-dive-in",
     "category": "精华",
     "note": "50ml基础保湿精华；和化妆水用途有重合，按习惯选剂型即可。"
+  },
+  {
+    "id": "ryo-damage-care-conditioner",
+    "category": "护发素",
+    "note": "480ml冲洗型护发素；页面起价不是本选项单独售价，结账前确认选中护发素。"
   }
 ];

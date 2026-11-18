@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "researched_date": "2026-11-18",
-  "product_count": 38,
-  "scope": "在原12款基础上补充38款，总计50款，覆盖彩妆、护肤、洁面卸妆、防晒、头皮洗护与伴手礼；逐项核对Olive Young韩国商品页，区分小红书线索、韩国销售榜、官方企划与编辑建议。",
+  "product_count": 39,
+  "scope": "在原12款基础上补充39款，总计51款，覆盖彩妆、护肤、洁面卸妆、防晒、头皮洗护与伴手礼；逐项核对Olive Young韩国商品页，区分小红书线索、韩国销售榜、官方企划与编辑建议。",
   "products": [
     {
       "id": "torriden-dive-in-toner-kit",
@@ -814,6 +814,28 @@
       "suitability_basis": "Olive Young韩国商品页核对50ml单品及按摩板企划选项；韩国销售榜资料于2026年11月16日将该50ml系列列入总榜前十。排名不等于个体适用。",
       "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-17", "option_level_stock_verified": false, "store_inventory_verified": false},
       "xhs_note_clue": null
+    },
+    {
+      "id": "ryo-damage-care-conditioner",
+      "brand": "Ryo / 吕",
+      "name_zh": "黑润生气极损伤营养护发素",
+      "name_ko": "려 흑윤생기 극손상&영양 컨디셔너 480ml",
+      "category": "护发素",
+      "size": "480ml／冲洗型护发素",
+      "intent": "自用",
+      "official_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205015",
+      "olive_young_goods_no": "A000000205015",
+      "image_path": "dist/assets/ryo-damage-care-conditioner.jpg",
+      "image_web_path": "/assets/ryo-damage-care-conditioner.jpg",
+      "image_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0020/A00000020501506ko.jpg?l=ko",
+      "image_note": "官方图对应红瓶 Damage Care & Nourishing Conditioner；商品页另有洗发水/护发素等选项，图片只代表这款护发素。",
+      "budget_krw": {"type": "estimate", "amount": 10000, "currency": "KRW", "label": "计划预算，非实时价"},
+      "price_reference": {"type": "verified_listing_starting_price", "amount": 8900, "currency": "KRW", "is_starting_price": true, "selected_option_price_verified": false, "source_url": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205015", "accessed_date": "2026-11-18", "note": "Olive Young多选项商品页查询时显示₩8,900起；未确认所选护发素选项的单独售价，门店价格与库存需现场核对。"},
+      "suitable": "想补一支日常冲洗型护发素、发尾容易干燥或有染烫习惯的人；先少量试用并观察自己的发丝触感。",
+      "caution": "页面同时有洗发水和护发素等选项，结账前确认选择红瓶护发素；香味与滋润感因人而异，价格、促销和门店库存以现场为准。",
+      "suitability_basis": "Olive Young韩国商品页核对品牌、商品图与480ml规格；不把商品宣传当作效果保证。",
+      "listing_status": {"status": "official_product_page_observed", "checked_date": "2026-11-18", "option_level_stock_verified": false, "store_inventory_verified": false},
+      "xhs_note_clue": null
     }
   ],
   "sources": [
@@ -867,6 +889,7 @@
     {"id":"bioheal-probioderm-image","publisher":"BIOHEAL BOH日本官方商城","url":"https://www.biohealboh.jp/assets/images/cream/product.png","accessed_date":"2026-11-17","supports":["50ml面霜单品包装图"],"note":"用于展示单品包装，不含Olive Young按摩板企划。"},
     {"id":"korea-weekly-ranking-2026-11-16","publisher":"The Seoul Beauty Report（整理Olive Young韩国销售榜）","url":"https://theseoulbeautyreport.com/rankings/weekly-2026-11-16/","accessed_date":"2026-11-17","supports":["Longtake Hair Oil当周护发榜第5","celimax The Vita A Retinal Shot当周总榜第5","Torriden Solid In Lip Essence细分榜名次线索","hetras手霜当周新入榜第25","BIOHEAL BOH Probioderm 3D Lifting Cream列入总榜前十"],"note":"排名反映2026-11-16一周的韩国销售榜快照，不是官方商品评价、功效验证或个人适用建议。"},
     {"id":"kosnori-tone-up-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000017135","accessed_date":"2026-11-18","supports":["KOSNORI Whitening Dress Tone-Up Cream 50ml","查询日页面价格与官方商品图"],"note":"肤色妆感需到店试用；促销和门店库存会变化，不作为防晒产品推荐。"},
-    {"id":"kosnori-tone-up-image","publisher":"Olive Young韩国官方商城商品图","url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0001/A000000017135142ko.jpg?l=ko","accessed_date":"2026-11-18","supports":["KOSNORI Whitening Dress Tone-Up Cream包装图"],"note":"仅用于商品识别，不代表妆感或肤色适配。"}
+    {"id":"kosnori-tone-up-image","publisher":"Olive Young韩国官方商城商品图","url":"https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0001/A000000017135142ko.jpg?l=ko","accessed_date":"2026-11-18","supports":["KOSNORI Whitening Dress Tone-Up Cream包装图"],"note":"仅用于商品识别，不代表妆感或肤色适配。"},
+    {"id":"ryo-conditioner-oy","publisher":"Olive Young韩国官方商城","url":"https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000205015","accessed_date":"2026-11-18","supports":["480ml黑润生气护发素商品选项","红瓶 Damage Care & Nourishing Conditioner 商品图","多选项页面起价"],"note":"页面同组包含洗发水/护发素等选项；起价不等于所选护发素售价，门店库存未核实。"}
   ]
 }

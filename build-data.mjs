@@ -39,6 +39,7 @@ const edits = {
   'fwee-pudding-pot': { name:'唇颊两用柔雾布丁膏', category:'makeup', skin:[], purposes:['self','gift'], label:'同色唇颊', tags:['5g','唇颊两用'], reason:'想尝试唇颊同色妆，可以现场看颜色和质地。', giftAdvice:'颜色很挑人，适合愿意一起试色或已知对方偏好时送。' },
   'clio-kill-lash': { name:'Kill Lash 超持久睫毛膏', category:'makeup', skin:[], purposes:['self','gift'], label:'1 + 1 企划', tags:['两支装','防水型需卸妆'], reason:'平时会用睫毛膏、也能用完两支时再考虑囤这套。', giftAdvice:'仅适合确定对方用睫毛膏并喜欢该刷型时送；同时配合合适的眼唇卸妆。' },
   'laboh-scalp-shampoo': { name:'头皮强韧洗发水', category:'hairbody', skin:['hair'], purposes:['self'], label:'洗护自用', tags:['333 + 50ml','带旅行装'], reason:'想换洗发水时可先试，附带小瓶更适合短途携带。', giftAdvice:'洗发水和头皮感受因人而异，建议自用；不要把页面宣传理解为治疗保证。' },
+  'ryo-damage-care-conditioner': { name:'黑润生气极损伤营养护发素', category:'hairbody', skin:['hair'], purposes:['self'], label:'冲洗型日常护发', tags:['480ml','先确认选项'], reason:'补上一支冲洗型护发素；结账前确认是红瓶护发素而非同页洗发水，先少量试用。', giftAdvice:'香味和滋润感比较个人，建议自用或先确认对方的护发习惯。', evidence:'Olive Young韩国官方多选项页面核对商品与480ml规格；页面起价不是所选护发素的确定售价。' },
   'drg-red-blemish-kit': { name:'清爽舒缓面霜套装', category:'skincare', skin:['oily','sensitive'], purposes:['self','gift'], label:'先比质地', tags:['70 + 30ml 面霜','加赠精华'], reason:'可在店里与偏厚润的面霜比较质地，确认自己喜欢再选。', giftAdvice:'护肤较挑肤质和成分习惯，只送给清楚了解对方日常护理的人。' },
   'wdressroom-hand-cream': { name:'10 周年香氛护手霜', category:'hairbody', skin:[], purposes:['self','gift'], label:'小份香氛礼', tags:['50ml','三款香型'], reason:'小支护手霜容易携带，三款香型可以先闻再选。', giftAdvice:'香味个人差异大；先试闻，香味敏感者不建议盲送。' },
   'anua-pdrn-mini-kit': { name:'PDRN 玻尿酸精华 + 面霜小套装', category:'skincare', skin:['dry'], purposes:['self','gift'], label:'小红书提及', tags:['30ml + 30ml','先试小规格'], reason:'公开小红书摘要提到这组精华和面霜；小规格适合先了解肤感。', giftAdvice:'不因笔记种草就送护肤品；确认成分偏好和使用习惯后再选。', noteId:'anua-note' },
@@ -89,7 +90,8 @@ const picks = [
   {id:'kosnori-whitening-dress-tone-up',category:'素颜霜',note:'50ml轻底妆提亮；现场试色，看是否自然贴合肤色，不替代防晒。'},
   {id:'torriden-dive-in-toner-kit',category:'补水',note:'300ml＋100ml企划；已有保湿精华时按需取舍，不必两步都买。'},
   {id:'roundlab-dokdo-cleanser',category:'洁面',note:'150ml日常洁面；先确认洗后肤感，低pH定位不保证人人适用。'},
-  {id:'torriden-dive-in',category:'精华',note:'50ml基础保湿精华；和化妆水用途有重合，按习惯选剂型即可。'}
+  {id:'torriden-dive-in',category:'精华',note:'50ml基础保湿精华；和化妆水用途有重合，按习惯选剂型即可。'},
+  {id:'ryo-damage-care-conditioner',category:'护发素',note:'480ml冲洗型护发素；页面起价不是本选项单独售价，结账前确认选中护发素。'}
 ];
 writeFileSync(new URL('./dist/data.js',import.meta.url),`// Generated from research.json and build-data.mjs.\nwindow.PRODUCTS = ${JSON.stringify(products,null,2)};\nwindow.BUNDLES = ${JSON.stringify(bundles,null,2)};\nwindow.PICKS = ${JSON.stringify(picks,null,2)};\n`);
 console.log(`Generated ${products.length} products and ${bundles.length} gift bundles.`);
